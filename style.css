@@ -1,0 +1,96 @@
+.list{
+    display: inline-block;
+    font-size: 15px;
+}
+#paragraphOne{
+    color: blue;
+    padding-top: 5px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 212, 173);
+    
+}
+#containerOne{
+    padding-left: 50px;
+    margin-top: 15px;
+    background-color: white;
+    width: 560px;
+    height: 500px;
+    border: 3px dashed blue;
+}
+
+#picture{
+    border: 5px solid rgb(252, 131, 232);
+}
+
+#myHeader{
+    background-color: rgb(63, 63, 63);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+}
+nav{
+    height: 100vh;
+    font: 50px;
+    z-index: 1;
+    margin: 0rem;
+    width: 150px;
+    position: absolute;
+    overflow-x: hidden;
+    background-color: rgb(63, 63, 63)
+}
+.navBar{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navBar li a{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 30px 8px 8px 0px;
+    padding-left: 0px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navBar li a:hover{
+    background-color: #494848;
+}
+.footer{
+    padding: .2rem;
+    text-align: right;
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+.footer p a{
+    color: greenyellow
+}
+
+.footer p{
+    margin: .5px;
+}
+#player{
+font-family: 'helvetica neue', helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgba(8, 8, 180, 0.6);
+  background: rgba(0, 0, 19, 0.3);
+  color: rgba(0,0,200,0.6);
+  box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#postNav{
+    margin-left: 200px;
+}
